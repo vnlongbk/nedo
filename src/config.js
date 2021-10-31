@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'longvo.testnet'
+const CONTRACT_NAME = process.env.CONTRACT_NAME || '[YOURNAME].testnet'
 
 function getConfig(env) {
   switch (env) {
