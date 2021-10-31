@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/vnlongbk/Nedo",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +21,9 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "build:contract": "node contract/compile.js",
-    "dev:deploy:contract": "near dev-deploy"
+    "dev:deploy:contract": "near dev-deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
