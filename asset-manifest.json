@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Nedo/static/css/main.4fc1bb3c.chunk.css",
-    "main.js": "/Nedo/static/js/main.345e155d.chunk.js",
-    "main.js.map": "/Nedo/static/js/main.345e155d.chunk.js.map",
-    "runtime-main.js": "/Nedo/static/js/runtime-main.049ce704.js",
-    "runtime-main.js.map": "/Nedo/static/js/runtime-main.049ce704.js.map",
-    "static/js/2.423b289f.chunk.js": "/Nedo/static/js/2.423b289f.chunk.js",
-    "static/js/2.423b289f.chunk.js.map": "/Nedo/static/js/2.423b289f.chunk.js.map",
-    "static/js/3.d811d73e.chunk.js": "/Nedo/static/js/3.d811d73e.chunk.js",
-    "static/js/3.d811d73e.chunk.js.map": "/Nedo/static/js/3.d811d73e.chunk.js.map",
+    "main.js": "/Nedo/static/js/main.7058b3a0.chunk.js",
+    "main.js.map": "/Nedo/static/js/main.7058b3a0.chunk.js.map",
+    "runtime-main.js": "/Nedo/static/js/runtime-main.2dd84b3c.js",
+    "runtime-main.js.map": "/Nedo/static/js/runtime-main.2dd84b3c.js.map",
+    "static/js/2.3904236e.chunk.js": "/Nedo/static/js/2.3904236e.chunk.js",
+    "static/js/2.3904236e.chunk.js.map": "/Nedo/static/js/2.3904236e.chunk.js.map",
+    "static/js/3.64099ed8.chunk.js": "/Nedo/static/js/3.64099ed8.chunk.js",
+    "static/js/3.64099ed8.chunk.js.map": "/Nedo/static/js/3.64099ed8.chunk.js.map",
     "index.html": "/Nedo/index.html",
     "static/css/main.4fc1bb3c.chunk.css.map": "/Nedo/static/css/main.4fc1bb3c.chunk.css.map",
-    "static/js/2.423b289f.chunk.js.LICENSE.txt": "/Nedo/static/js/2.423b289f.chunk.js.LICENSE.txt"
+    "static/js/2.3904236e.chunk.js.LICENSE.txt": "/Nedo/static/js/2.3904236e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.049ce704.js",
-    "static/js/2.423b289f.chunk.js",
+    "static/js/runtime-main.2dd84b3c.js",
+    "static/js/2.3904236e.chunk.js",
     "static/css/main.4fc1bb3c.chunk.css",
-    "static/js/main.345e155d.chunk.js"
+    "static/js/main.7058b3a0.chunk.js"
   ]
 }
