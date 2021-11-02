@@ -21,8 +21,8 @@ export async function initContract() {
     window.walletConnection.account(),
     nearConfig.contractName,
     {
-      // viewMethods: ['getGreeting'],
-      changeMethods: ['sendNear'],
+      viewMethods: ['getMessages'],
+      changeMethods: ['addMessage'],
     }
   )
 }
