@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nedo/static/css/main.24187916.chunk.css",
-    "main.js": "/nedo/static/js/main.bcc1293f.chunk.js",
-    "main.js.map": "/nedo/static/js/main.bcc1293f.chunk.js.map",
+    "main.js": "/nedo/static/js/main.a5d1d24a.chunk.js",
+    "main.js.map": "/nedo/static/js/main.a5d1d24a.chunk.js.map",
     "runtime-main.js": "/nedo/static/js/runtime-main.78683c90.js",
     "runtime-main.js.map": "/nedo/static/js/runtime-main.78683c90.js.map",
     "static/js/2.10ec5cbf.chunk.js": "/nedo/static/js/2.10ec5cbf.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.78683c90.js",
     "static/js/2.10ec5cbf.chunk.js",
     "static/css/main.24187916.chunk.css",
-    "static/js/main.bcc1293f.chunk.js"
+    "static/js/main.a5d1d24a.chunk.js"
   ]
 }
