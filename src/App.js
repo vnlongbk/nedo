@@ -1,14 +1,11 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import { useEffect, useState } from 'react'
 import { data } from './mock'
-import { login, logout, getWallet } from './utils'
 import Big from 'big.js'
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
+import StatCard from './components/StatCard'
 
 function App() {
-  const [messages, useMessage] = useState([])
-
   const onSubmit = async e => {
     const BOATLOAD_OF_GAS = Big(3)
       .times(10 ** 13)
@@ -23,21 +20,10 @@ function App() {
     )
   }
 
-  const handleFetchMessage = async () => {
-    const data = await window?.contract.getMessages()
-    console.log(data)
-    useMessage(data)
-  }
-
-  useEffect(() => {
-    // TODO: don't just fetch once; subscribe!
-
-    handleFetchMessage()
-  }, [])
-
   return (
     <div class="h-full w-full" style={{ backgroundColor: '#ffffff' }}>
       <Header />
+      {/* <StatCard /> */}
       <section class="grid w-full mx-auto sm:px-6 lg:px-8 p-8 justify-center">
         {/* <div class="text-center pb-12">
           <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-800">
@@ -75,7 +61,7 @@ function App() {
                 <div class="w-full border rounded-lg border-gray-300 overflow-hidden flex flex-col items-center">
                   <div class="mb-8">
                     <img
-                      class="object-center object-cover h-full w-full"
+                      class="object-center object-cover h-40 w-full"
                       src={e?.image}
                       alt="photo"
                     />
@@ -95,26 +81,6 @@ function App() {
               ))}
             </div>
           </div>
-          {/* <div class="grid col-span-1 content-start gap-4">
-            <h1 class="font-bold text-3xl font-heading text-gray-800">
-              Notification
-            </h1>
-            {messages?.reverse()?.map(
-              e =>
-                e?.text &&
-                e?.text !== 'thank you' && (
-                  <div
-                    class={`${
-                      window?.accountId === e?.sender
-                        ? 'bg-green-500'
-                        : 'bg-purple-500'
-                    } text-white font-bold py-2 px-4 rounded text-lg`}
-                  >
-                    <p>{e?.text} </p>
-                  </div>
-                )
-            )}
-          </div> */}
         </div>
       </section>
     </div>

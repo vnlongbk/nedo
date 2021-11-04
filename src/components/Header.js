@@ -2,6 +2,7 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { login, logout } from '../utils'
+import logo from '../logo.jpeg'
 
 const Header = () => {
   return (
@@ -20,10 +21,7 @@ const Header = () => {
         </nav>
         <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
           <div class="w-1/2">
-            <img
-              src="https://source.unsplash.com/ZneH-h-iu-s"
-              class="mx-auto w-16 h-16 rounded-full"
-            />
+            <img src={logo} class="mx-auto w-16 h-16 rounded-full" />
           </div>
           <div class="h-full w-1/2 flex flex-col justify-center text-2xl">
             <span class="font-semibold text-white">Banana</span>
